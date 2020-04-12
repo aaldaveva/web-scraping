@@ -1,4 +1,4 @@
-#Clase que modela un País, contiene una lista de equipos de fútbol
+#Clase que modela un PaÃ­s, contiene una lista de equipos de fÃºtbol
 from countryTeam import countryTeam
 
 class country:
