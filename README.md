@@ -138,6 +138,11 @@ Teniendo en cuenta que, de todos los tipos de licencias proporcionados en el enu
 ### Código. Adjuntar el código con el que se ha generado el dataset, preferiblemente en Python o, alternativamente, en R.
 
 El código fue desarrollado en Python utilizando el Entorno de Desarrollo Integrado (IDE) Wing Personal 7.2, el código fuente se encuentra en el fichero comprimido código.zip y también en el repositorio de github: 	https://github.com/aaldaveva/web-scraping
+El proyecto consta del siguiente código desarrollado en Python:
+-	country.py: Modela un país
+-	countryTeam.py: Modela un equipo de un país
+-	scraper.py: Clase inicial que será la encargada de desencadenar todo
+-	scraperCountries.py: Clase que contiene toda la lógica de negocio de la aplicación
 
 ### Dataset. Publicación del dataset en formato CSV en Zenodo con una pequeña descripción.
 
