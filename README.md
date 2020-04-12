@@ -57,11 +57,11 @@ La información que pública la UEFA corresponde, entre otra, a todas las ligas 
 
 Los datos extraídos corresponden precisamente a todos los equipos de estas ligas europeas con los puntos, posiciones, partidos… de cada uno de ellos. De ahí que se haya escogido el nombre anteriormente mencionado: Clasificación actualizada de equipos de fútbol profesional en las ligas europeas.
 
-###Representación grafica. Presentar una imagen o esquema que identifique el dataset visualmente.
+### Representación grafica. Presentar una imagen o esquema que identifique el dataset visualmente.
 
 ![alt text](https://github.com/aaldaveva/web-scraping/blob/master/images/pr1.png?raw=true "DataSet Gráfico")
 
-<h3>Contenido. Explicar los campos que incluye el dataset, el periodo de tiempo de los datos y como se ha recogido.</h3>
+### Contenido. Explicar los campos que incluye el dataset, el periodo de tiempo de los datos y como se ha recogido.
 
 Para la creación del dataset, se ha accedido a la web de trabajo y se ha descargado mediante la librería BeautifulSoup. Para cada link que encontramos, se guarda el link que será el que va a contener la información por países. 
 
@@ -87,7 +87,7 @@ lTotal	partidos totales perdidos
 points	total de puntos obtenidos
 position	posición en la clasificación
 
-<h3>Agradecimientos. Presentar al propietario del conjunto de datos. Es necesario incluir citas de investigación o análisis anteriores (si los hay).</h3>
+### Agradecimientos. Presentar al propietario del conjunto de datos. Es necesario incluir citas de investigación o análisis anteriores (si los hay).
 
 La UEFA (Unión de Federaciones Europeas de Fútbol), es la confederación europea de asociaciones nacionales de fútbol y máximo organismo de este deporte en el continente europeo. Agrupa a todas las federaciones nacionales a lo largo de toda Europa.
 
@@ -103,7 +103,7 @@ Las webs que hemos encontrado que muestran la clasificación de las principales 
 -	https://www.superdeporte.es/deportes/futbol/
 -	https://www.scoreboard.com/es/futbol/
  
-<h3>Inspiración. Explique por qué es interesante este conjunto de datos y qué preguntas se pretenden responder.</h3>
+### Inspiración. Explique por qué es interesante este conjunto de datos y qué preguntas se pretenden responder.
 
 El fútbol es el deporte más popular no solo del continente europeo sino del mundo, se estima que tiene más de 4 mil millones de seguidores, alcanzando cifras del 60% de la población total. 
 Por ello, consideramos que la extracción de cualquier tipo de información de fuentes oficiales asociadas al fútbol y generación de datos listos para ser analizados por distintas plataformas, webs, prensa, aplicaciones móviles, etc., puede llegar a tener una repercusión muy importante teniendo en cuenta la cantidad de usuarios finales a quienes les puede llegar la información a través de diferentes medios.
@@ -122,7 +122,7 @@ o	Qué equipo de Europa ha obtenido la mejor puntuación, el más goleador y el 
 o	¿Qué ligas se pueden dar por finalizadas, según la diferencia de puntos entre los primeros clasificados?
 o	¿Cuántas jornadas faltan para dar por terminadas las ligas europeas de fútbol por países?
 
-<h3>Licencia.   Seleccione   una   de estas licencias   para   su   dataset   y   explique   el motivo de su selección:</h3>
+### Licencia.   Seleccione   una   de estas licencias   para   su   dataset   y   explique   el motivo de su selección:
 
 Consideramos que nuestro dataset debería tener una licencia del tipo Released Under CC BY-NC-SA 4.0 License. La elección de esta licencia se basa en:
 -	Cualquier persona o empresa que la utilice deberá reconocer la autoría de quienes construyeron el dataset y también indicar si realizaron cambios o no en el mismo. De esta forma se nos reconocerá nuestro trabajo.
@@ -131,11 +131,11 @@ Consideramos que nuestro dataset debería tener una licencia del tipo Released U
 
 Teniendo en cuenta que, de todos los tipos de licencias proporcionados en el enunciado, la única que se ajusta a nuestro modo de trabajo y reconocimiento seleccionamos Released Under CC BY-NC-SA 4.0 License.
 
-<h3>Código. Adjuntar el código con el que se ha generado el dataset, preferiblemente en Python o, alternativamente, en R.</h3>
+### Código. Adjuntar el código con el que se ha generado el dataset, preferiblemente en Python o, alternativamente, en R.
 
 El código fue desarrollado en Python utilizando el Entorno de Desarrollo Integrado (IDE) Wing Personal 7.2, el código fuente se encuentra en el fichero comprimido código.zip y también en el repositorio de github: 	https://github.com/aaldaveva/web-scraping
 
-<h3>Dataset. Publicación del dataset en formato CSV en Zenodo con una pequeña descripción</h3>
+### Dataset. Publicación del dataset en formato CSV en Zenodo con una pequeña descripción
 
 El proyecto se encuentra alojado en el repositorio de Zenodo:
 https://zenodo.org/record/3748955#.XpLuas1S9hE
