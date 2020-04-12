@@ -32,7 +32,7 @@ python scraper.py
           <li>Puntos obtenidos</li>
           <li>Posición en la clasificación</li>
 </ul>          
-<h3>Explicar en qué contexto se ha recolectado la información. Explique porque el sitio web elegido proporciona dicha información.</h3>
+### Explicar en qué contexto se ha recolectado la información. Explique porque el sitio web elegido proporciona dicha información.
 
 El máximo organismo europeo a nivel futbolístico es la UEFA (Unión de Asociaciones Europeas de Fútbol) y esta se encarga de organizar los distintos campeonatos que se puedan realizar en Europa, así como promover, desarrollar y controlar cualquier aspecto a nivel de dicho deporte.
 
@@ -45,11 +45,11 @@ En la práctica que nos atañe, hemos trabajado en el apartado relacionado con l
 Este último apartado  es donde se ha focalizado la recolección de datos, de los que se han creado los distintos códigos para tener una clasificación por países y dentro de cada uno de ellos, los equipos que lo forman. Para cada uno de los equipos se ha recopilado la información relacionada a la liga que pertenece, obteniendo así la posición en la clasificación, los partidos jugados, los puntos, etc.
 
 
-<h3>Definir un título para el dataset. Elegir un título que sea descriptivo.</h3>
+### Definir un título para el dataset. Elegir un título que sea descriptivo.
 
 Clasificación actualizada de equipos de fútbol profesional en las ligas europeas
  
-<h3>Descripción del dataset. Desarrollar una descripción breve del conjunto de datos que se ha extraído (es necesario que esta descripción tenga sentido con el título elegido).</h3>
+### Descripción del dataset. Desarrollar una descripción breve del conjunto de datos que se ha extraído (es necesario que esta descripción tenga sentido con el título elegido).
 
 Un dataset es un una colección de datos, normalmente tabulada. En este caso el conjunto de datos procede de la página oficial del mayor organismo futbolístico a nivel europeo. 
 
@@ -67,7 +67,7 @@ Para la creación del dataset, se ha accedido a la web de trabajo y se ha descar
 
 Por países vamos obteniendo de forma iterativa los equipos que componen dicho país con los correspondientes datos de la clasificación. Por cada equipo obtenido, se guarda la información en un vector que contendrá todos los atributos y que posteriormente, una vez recopilados en su totalidad [los equipos] los guardaremos en el csv.
 
-Dado que los partidos se disputan semanalmente, el periodo del tiempo de datos normal sería entre 7 y 10 días. Pero se podría dar una situación excepcional que esta semana no se disputara la competición por cualquier razón, por ejemplo, elecciones, huelga… con lo que estableceríamos un periodo de 15-20 días.
+Los datos han sido capturados desde la página web oficial de la UEFA y los datos sobre las clasificaciones son datos oficiales hasta la última jornada que se pudo practicar este deporte. Cabe decir que no existe histórico de ningún tipo, esto implica que si se quisiera guardar la información de las clasificaciones por fechas o algún otro criterio, se debería ejecutar el programa de forma semanal y guardarlos. 
 
 El dataset incluye los siguientes campos:
 
@@ -135,9 +135,15 @@ Teniendo en cuenta que, de todos los tipos de licencias proporcionados en el enu
 
 El código fue desarrollado en Python utilizando el Entorno de Desarrollo Integrado (IDE) Wing Personal 7.2, el código fuente se encuentra en el fichero comprimido código.zip y también en el repositorio de github: 	https://github.com/aaldaveva/web-scraping
 
-### Dataset. Publicación del dataset en formato CSV en Zenodo con una pequeña descripción
+### Dataset. Publicación del dataset en formato CSV en Zenodo con una pequeña descripción.
 
 El proyecto se encuentra alojado en el repositorio de Zenodo:
-https://zenodo.org/record/3748955#.XpLuas1S9hE
+https://zenodo.org/record/3748300#.XpF4ac1S9hE
+
+
+### Entrega. Presentar el trabajo con el DOI del dataset en Github.
+
+El proyecto se encuentra alojado en el repositorio de Github: 
+https://github.com/aaldaveva/web-scraping
 
 
