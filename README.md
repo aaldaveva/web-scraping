@@ -74,20 +74,22 @@ Los datos han sido capturados desde la página web oficial de la UEFA y los dato
 El dataset incluye los siguientes campos:
 
 Variable	Descripción
-countryName	País al cual pertenece el equipo
-teamName	Nombre del equipo de fútbol
-gamesPlayed	partidos jugados
-wHome	partidos ganados en casa
-dHome	partidos empatados en casa
-lHome	partidos perdidos en casa
-wAway	partidos ganados fuera de casa
-dAway	partidos empatados fuera de casa
-lAway	partidos perdidos fuera de casa
-wTotal	partidos totales ganados
-dTotal	partidos totales empatados
-lTotal	partidos totales perdidos
-points	total de puntos obtenidos
-position	posición en la clasificación
+<ul>
+          <li>countryName	País al cual pertenece el equipo</li>
+<li>teamName	Nombre del equipo de fútbol</li>
+<li>gamesPlayed	partidos jugados</li>
+<li>wHome	partidos ganados en casa</li>
+<li>dHome	partidos empatados en casa</li>
+<li>lHome	partidos perdidos en casa</li>
+<li>wAway	partidos ganados fuera de casa</li>
+<li>dAway	partidos empatados fuera de casa</li>
+<li>lAway	partidos perdidos fuera de casa</li>
+<li>wTotal	partidos totales ganados</li>
+<li>dTotal	partidos totales empatados</li>
+<li>lTotal	partidos totales perdidos</li>
+<li>points	total de puntos obtenidos</li>
+          <li>position	posición en la clasificación</li>
+          </ul>
 
 ### Agradecimientos. Presentar al propietario del conjunto de datos. Es necesario incluir citas de investigación o análisis anteriores (si los hay).
 
