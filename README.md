@@ -31,7 +31,9 @@ python scraper.py
           <li>Partidos totales perdidos</li>
           <li>Puntos obtenidos</li>
           <li>Posición en la clasificación</li>
-</ul>          
+</ul>   
+
+
 ### Explicar en qué contexto se ha recolectado la información. Explique porque el sitio web elegido proporciona dicha información.
 
 El máximo organismo europeo a nivel futbolístico es la UEFA (Unión de Asociaciones Europeas de Fútbol) y esta se encarga de organizar los distintos campeonatos que se puedan realizar en Europa, así como promover, desarrollar y controlar cualquier aspecto a nivel de dicho deporte.
