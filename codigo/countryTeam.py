@@ -14,7 +14,7 @@ class countryTeam:
         self._dTotal=dTotal		#partidos totales empatados
         self._lTotal=lTotal		#partidos totales perdidos
         self._points=points		#puntos obtenidos
-        self._position=position		#posiciÛn en la clasificaciÛn
+        self._position=position		#posici√≥n en la clasificaci√≥n
 
     @property
     def country(self):
@@ -24,7 +24,7 @@ class countryTeam:
     def teamName(self):
         return self._teamName    
 
-    ##########Falta aÒadir todas las demas propiedades
+    ##########Falta a√±adir todas las demas propiedades
 
     @property
     def gamesPlayed(self):
@@ -75,7 +75,7 @@ class countryTeam:
         return self._position
     
 
-    #Este mÈtodo retorna los datos que se escribir·n en el csv
+    #Este m√©todo retorna los datos que se escribir√°n en el csv
     def countryTeamToCsv(self):
         datos_csv=[self._countryName,self._teamName,self._gamesPlayed,self._wHome,self._dHome,self._lHome,self._wAway,self._dAway,self._lAway,self._wTotal,self._dTotal,self._lTotal,self._points,self._position]
         return datos_csv
