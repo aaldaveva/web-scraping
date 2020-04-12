@@ -59,7 +59,7 @@ Los datos extraídos corresponden precisamente a todos los equipos de estas liga
 
 
 <h3>Representación grafica. Presentar una imagen o esquema que identifique el dataset visualmente.</h3>
-<img scr="https://github.com/aaldaveva/web-scraping/blob/master/images/pr1.png"></img>
+<img scr="images/pr1.png"></img>
  
 
 <h3>Contenido. Explicar los campos que incluye el dataset, el periodo de tiempo de los datos y como se ha recogido.</h3>
