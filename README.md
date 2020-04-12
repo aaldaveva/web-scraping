@@ -57,11 +57,9 @@ La información que pública la UEFA corresponde, entre otra, a todas las ligas 
 
 Los datos extraídos corresponden precisamente a todos los equipos de estas ligas europeas con los puntos, posiciones, partidos… de cada uno de ellos. De ahí que se haya escogido el nombre anteriormente mencionado: Clasificación actualizada de equipos de fútbol profesional en las ligas europeas.
 
-### Presentar una imagen o esquema que identifique el dataset visualmente
+###Representación grafica. Presentar una imagen o esquema que identifique el dataset visualmente.
 
-![alt text](https://github.com/difercast/web_scraping/blob/master/images/properati.png?raw=true "Anuncio Properati")
-
-![alt text](https://github.com/difercast/web_scraping/blob/master/images/estadisticas.png?raw=true "Estadísticas de los anuncios")
+![alt text](https://github.com/aaldaveva/web-scraping/blob/master/images/pr1.png?raw=true "DataSet Gráfico")
 
 <h3>Contenido. Explicar los campos que incluye el dataset, el periodo de tiempo de los datos y como se ha recogido.</h3>
 
