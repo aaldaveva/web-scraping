@@ -7,7 +7,7 @@ import requests
 
 
 class scraperCountries:
-    # Variable que contiene todos los países
+    # Variable que contiene todos los paÃ­ses
     _countryList = []
 
     def __init__(self, urlMain, urlBaseCountries):
@@ -17,21 +17,21 @@ class scraperCountries:
     def execute(self):
         page = requests.get(self._urlMain)
         soup = BeautifulSoup(page.content, "lxml")
-        # El div con id:ListDomesticLeague es el contenedor principal que contiene todos los países
+        # El div con id:ListDomesticLeague es el contenedor principal que contiene todos los paÃ­ses
         groupCountries = soup.find('div', attrs={'id': 'ListDomesticLeague'})
-        # Para cada país encontrado descargo el enlace en el cual podre encontrar todos las clasificaciones
-        #La dirección de las clasificaciones de cada país, se encuentran dentro de <a href>
-        #Cada vez que se encuentra un <a>, estamos en un nuevo país
+        # Para cada paÃ­s encontrado descargo el enlace en el cual podre encontrar todos las clasificaciones
+        #La direcciÃ³n de las clasificaciones de cada paÃ­s, se encuentran dentro de <a href>
+        #Cada vez que se encuentra un <a>, estamos en un nuevo paÃ­s
         for aCountries in groupCountries.find_all("a"):
-            #Guardamos la url del país
+            #Guardamos la url del paÃ­s
             urlCountry = aCountries.get('href')
-            #Guardamos el nombre del país
+            #Guardamos el nombre del paÃ­s
             countryName = aCountries.get('title')
             #Creamos una nueva url para poder descargar todos los equipos
             urlCountry = self._urlBaseCountries+urlCountry
             co = country(countryName, urlCountry)
 
-            #Comprobamos que el país no se haya descargado, si ya se ha descargado, se ignora
+            #Comprobamos que el paÃ­s no se haya descargado, si ya se ha descargado, se ignora
             if (len(self._countryList) > 0):
                 bhas = any(x.countryName == countryName for x in self._countryList)
                 if (bhas == False):
@@ -41,13 +41,13 @@ class scraperCountries:
 
         print("Se descargara ", len(self._countryList), " paises")
 
-        #En esta iteración se descarga cada equipo de cada país
-        #En el primer bucle, se itera para cada país encontrado 
+        #En esta iteraciÃ³n se descarga cada equipo de cada paÃ­s
+        #En el primer bucle, se itera para cada paÃ­s encontrado 
         for indice, Cou in enumerate(self._countryList):
 
             pageCountry = requests.get(Cou.urlCountry)
             soupCountry = BeautifulSoup(pageCountry.content, "lxml")
-            #Todos los equipos están dentro del cuerpo del html
+            #Todos los equipos estÃ¡n dentro del cuerpo del html
             teams = soupCountry.find('tbody')
             countryTeams = []
 
@@ -71,12 +71,12 @@ class scraperCountries:
                 points = row_text[14]
                 position = row_text[0]
 
-                #Creamos un nuevo objeto de equipo de futbol con los valores que se escribirán en el csv
+                #Creamos un nuevo objeto de equipo de futbol con los valores que se escribirÃ¡n en el csv
                 te = countryTeam(Cname, tName, gPlayed, wHome, dHome, lHome,
                                  wAway, dAway, lAway, wTotal, dTotal, lTotal, points, position)
                 countryTeams.append(te)
 
-                #Actualizamos la lista de equipos dentro del país
+                #Actualizamos la lista de equipos dentro del paÃ­s
                 Cou.actualizarTeams(countryTeams)
                 self._countryList[indice] = Cou
 
