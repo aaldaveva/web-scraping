@@ -139,6 +139,6 @@ El código fue desarrollado en Python utilizando el Entorno de Desarrollo Integr
 <h3>Dataset. Publicación del dataset en formato CSV en Zenodo con una pequeña descripción</h3>
 
 El proyecto se encuentra alojado en el repositorio de Zenodo:
-https://zenodo.org/record/3748300#.XpF4ac1S9hE
+https://zenodo.org/record/3748955#.XpLuas1S9hE
 
 
